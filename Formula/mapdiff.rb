@@ -1,25 +1,25 @@
 class Mapdiff < Formula
   desc "Review a change on a map of your code: diffs by function and type, drawn with what they touch"
   homepage "https://avgvi.github.io/mapdiff/"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/avgvi/mapdiff/releases/download/v0.1.0/mapdiff-aarch64-apple-darwin.tar.xz"
-      sha256 "bf2647135d45eb3a2c8116551f28782c7cf34f8c9575de79c6ed8a7775eb27eb"
+      url "https://github.com/avgvi/mapdiff/releases/download/v0.2.0/mapdiff-aarch64-apple-darwin.tar.xz"
+      sha256 "77aa15136cbf6e1ddb15ee127d3835e4a74fc29a1a9c73020d10863e5344a2fa"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/avgvi/mapdiff/releases/download/v0.1.0/mapdiff-x86_64-apple-darwin.tar.xz"
-      sha256 "6bdc855f73d6767312f87c1f39d0503991993ddfac687dd1d4c1662cab678720"
+      url "https://github.com/avgvi/mapdiff/releases/download/v0.2.0/mapdiff-x86_64-apple-darwin.tar.xz"
+      sha256 "2c035c594658e458cd39c2d2ee9b48d81171b0e76a800607dedd1c9ff9dbc7f0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/avgvi/mapdiff/releases/download/v0.1.0/mapdiff-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3023f569e511ed58bd10fed1bbde1352b46d3c2a9618a3d3d3edc5a31e784429"
+      url "https://github.com/avgvi/mapdiff/releases/download/v0.2.0/mapdiff-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1a41076862adfc8b482e9e3f247d4d43b47ba700f1b8bb9ed5c09f3013f1ddee"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/avgvi/mapdiff/releases/download/v0.1.0/mapdiff-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0d805ffe4fd5a11feecc9b8b56baef9caf130ec7cfcb32256fec1b7e8a33526c"
+      url "https://github.com/avgvi/mapdiff/releases/download/v0.2.0/mapdiff-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6c1b07263af25e2211052f88b6530c7dbb2150c862831aa28ea0cff7e48444d9"
     end
   end
   license "MIT"
